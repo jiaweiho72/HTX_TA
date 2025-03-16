@@ -1,0 +1,9 @@
+fastapi==0.115.11             # FastAPI framework
+uvicorn==0.34.0             # ASGI server to run FastAPI (Uvicorn)
+transformers==4.49.0        # Hugging Face transformers for pre-trained models
+torch==2.6.0                # PyTorch for model loading and processing
+torchaudio==2.6.0           # Audio processing with PyTorch (for waveform loading and resampling)
+python-dotenv==1.0.1        # To load environment variables from .env files
+pydantic==2.10.6            # Pydantic for structured responses
+requests==2.32.3            # For making HTTP requests (for batch processing and API testing)
+python-multipart==0.0.20
