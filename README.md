@@ -56,8 +56,6 @@ chmod +x setup_env.sh
 ./setup_env.sh
 source venv/bin/activate
 ```
-chmod +x setup_env.sh
-
 
 ### 1. ASR Microservice
 1. **Environment Variables:**
