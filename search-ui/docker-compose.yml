@@ -1,0 +1,7 @@
+version: '3'
+services:
+  search-ui:
+    build: .
+    container_name: search-ui
+    ports:
+      - "3000:3000"
