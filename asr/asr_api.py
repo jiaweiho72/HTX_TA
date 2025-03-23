@@ -17,7 +17,10 @@ import tempfile
 load_dotenv()
 
 # Set up logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    handlers=[logging.StreamHandler(), logging.FileHandler("asr_api.log")])
+
 logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app

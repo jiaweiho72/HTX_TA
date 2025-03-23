@@ -6,3 +6,9 @@ venv/
 *.egg-info
 dist/
 build/
+*.log
+# **/*.csv
+.DS_Store
+**/.DS_Store
+
+**/*.mp3
