@@ -99,23 +99,23 @@ Navigate to the elastic-backend folder and run:
    ```
 
 ### 2. Search UI
-1.**Install Dependencies:**
+1. **Install Dependencies:**
    ```
    cd search-ui
    npm install
    ```
-2.**Configure Environment:**
+2. **Configure Environment:**
 In the Next.js app SearchUI.tsx, update the connection URL for Elasticsearch.
 
 host="http://<BACKEND_EC2_PUBLIC_IP>:9200"
 Replace <BACKEND_EC2_PUBLIC_IP> with the proper IP during AWS deployment. For local testing, you can use localhost.
 
-3.**Build and Run:**
+3. **Build and Run:**
    ```
    npm run build
    docker-compose up -d
    ```
-4.**Access the UI:**
+4. **Access the UI:**
 - Open http://localhost:3000 in your browser.
 
 ## AWS Deployment
