@@ -63,7 +63,7 @@ Create a `.env` file in the `asr` folder. For example:
    ```
    MODEL_NAME=facebook/wav2vec2-large-960h
    ```
-2. **Install Dependencies:**
+2. **Install Dependencies:** Optional as the main requirements.txt at root level has the same packages
    ```
    python -m venv venv
    source venv/bin/activate
